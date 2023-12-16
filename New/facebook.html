@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./facebook.css">
+    <!-- link font awesome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="banner">
+        <span class="logo">
+            <i class="fa-brands fa-facebook" style="color: #0866FF;"></i>
+        </span>
+        <div class="input-search">
+            <span><svg viewBox="0 0 16 16" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xlup9mm x1kky2od"><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg></span>
+            <input type="text" placeholder="Tìm kiếm trên facebook"> 
+        </div>
+        
+        <div class="item-contener">
+            <span class="box active">
+                <svg  viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xxk0z11 xvy4d1p"><path d="M9.464 1.286C10.294.803 11.092.5 12 .5c.908 0 1.707.303 2.537.786.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053-.656-.656-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006.53-1.06 1.497-1.784 2.888-2.826L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5h-3z"></path></svg>
+            </span>
+            <span class="box">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xxk0z11 xvy4d1p"><path d="M8 2.5a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9zM5.5 7a2.5 2.5 0 1 1 5 0 2.5 2.5 0 0 1-5 0zm-.25 6A4.75 4.75 0 0 0 .5 17.75 3.25 3.25 0 0 0 3.75 21h8.5a3.25 3.25 0 0 0 3.25-3.25A4.75 4.75 0 0 0 10.75 13h-5.5zM2.5 17.75A2.75 2.75 0 0 1 5.25 15h5.5a2.75 2.75 0 0 1 2.75 2.75c0 .69-.56 1.25-1.25 1.25h-8.5c-.69 0-1.25-.56-1.25-1.25zM14 9.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0zM17.5 8a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3zm0 6.5a1 1 0 1 0 0 2h2.3a1.7 1.7 0 0 1 1.7 1.7.8.8 0 0 1-.8.8h-3.2a1 1 0 1 0 0 2h3.2a2.8 2.8 0 0 0 2.8-2.8 3.7 3.7 0 0 0-3.7-3.7h-2.3z"></path></svg>
+            </span>
+
+            <span class="box">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xxk0z11 xvy4d1p"><path d="M10.996 8.132A1 1 0 0 0 9.5 9v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736l-3.5-2z"></path><path d="M14.573 2H9.427c-1.824 0-3.293 0-4.45.155-1.2.162-2.21.507-3.013 1.31C1.162 4.266.817 5.277.655 6.477.5 7.634.5 9.103.5 10.927v.146c0 1.824 0 3.293.155 4.45.162 1.2.507 2.21 1.31 3.012.802.803 1.813 1.148 3.013 1.31C6.134 20 7.603 20 9.427 20h5.146c1.824 0 3.293 0 4.45-.155 1.2-.162 2.21-.507 3.012-1.31.803-.802 1.148-1.813 1.31-3.013.155-1.156.155-2.625.155-4.449v-.146c0-1.824 0-3.293-.155-4.45-.162-1.2-.507-2.21-1.31-3.013-.802-.802-1.813-1.147-3.013-1.309C17.866 2 16.397 2 14.573 2zM3.38 4.879c.369-.37.887-.61 1.865-.741C6.251 4.002 7.586 4 9.5 4h5c1.914 0 3.249.002 4.256.138.978.131 1.496.372 1.865.74.37.37.61.888.742 1.866.135 1.007.137 2.342.137 4.256 0 1.914-.002 3.249-.137 4.256-.132.978-.373 1.496-.742 1.865-.369.37-.887.61-1.865.742-1.007.135-2.342.137-4.256.137h-5c-1.914 0-3.249-.002-4.256-.137-.978-.132-1.496-.373-1.865-.742-.37-.369-.61-.887-.741-1.865C2.502 14.249 2.5 12.914 2.5 11c0-1.914.002-3.249.138-4.256.131-.978.372-1.496.74-1.865zM8 21.5a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2H8z"></path></svg>
+            </span>
+            <span class="box">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xxk0z11 xvy4d1p"><path d="M12 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-2 4a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path><path d="M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12zm2.21-2a9.537 9.537 0 0 0 0 3.993l.3.007A2 2 0 0 0 3 10h-.29zm.663-1.983a4 4 0 0 1 0 7.966 9.523 9.523 0 0 0 1.948 2.773A5.002 5.002 0 0 1 10 15.523h4a5.002 5.002 0 0 1 4.679 3.233 9.523 9.523 0 0 0 1.948-2.773 4 4 0 0 1 0-7.966A9.501 9.501 0 0 0 12 2.5a9.501 9.501 0 0 0-8.627 5.517zM21.5 12a9.55 9.55 0 0 0-.212-2.007l-.265.007H21a2 2 0 0 0-.01 4l.3-.007c.138-.643.21-1.31.21-1.993zM12 21.5a9.455 9.455 0 0 0 4.97-1.402A3 3 0 0 0 14 17.523h-4a3 3 0 0 0-2.97 2.575A9.456 9.456 0 0 0 12 21.5z"></path></svg>
+            </span>
+            <span class="box">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq xcza8v6 xxk0z11 xvy4d1p"><path d="M8 8a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0v-2H5a1 1 0 1 1 0-2h2V9a1 1 0 0 1 1-1zm8 2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm-2 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"></path><path d="M.5 11a7 7 0 0 1 7-7h9a7 7 0 0 1 7 7v2a7 7 0 0 1-7 7h-9a7 7 0 0 1-7-7v-2zm7-5a5 5 0 0 0-5 5v2a5 5 0 0 0 5 5h9a5 5 0 0 0 5-5v-2a5 5 0 0 0-5-5h-9z"></path></svg>
+            </span>
+        </div>
+        <div class="item-right">
+            <span class="text">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 x1qx5ct2 xw4jnvo"><path d="M12 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 16a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 17a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg> 
+            </span>
+            <span class="text">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 x1qx5ct2 xw4jnvo"><path d="M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5c-1.922 0-3.736-.472-5.33-1.308a.63.63 0 0 0-.447-.069l-3.4.882a1.5 1.5 0 0 1-1.828-1.829l.882-3.4a.63.63 0 0 0-.07-.445A11.454 11.454 0 0 1 .5 12zm17.56-1.43a.819.819 0 0 0-1.125-1.167L14 11.499l-3.077-2.171a1.5 1.5 0 0 0-2.052.308l-2.93 3.793a.819.819 0 0 0 1.123 1.167L10 12.5l3.076 2.172a1.5 1.5 0 0 0 2.052-.308l2.931-3.793z"></svg>
+            </span>
+            <span class="text">
+                <svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="x1lliihq x1k90msu x2h7rmj x1qfuztq x198g3q0 x1qx5ct2 xw4jnvo"><path d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"></path></svg>
+            </span>
+            <span class="text">
+                <img src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?stp=cp0_dst-png_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=yA87YnT4NJQAX_cADrF&_nc_ht=scontent.fsgn2-10.fna&oh=00_AfDExnTq4M6scLkQ7XEXOt61MBGbJBXuK_l_mfxp0djSgw&oe=657803F8" alt="">
+            </span>
+        </div>
+    </div>
+        <div class="banner-item-left-input">
+            <div class="cha">
+                <img src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?stp=cp0_dst-png_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=yA87YnT4NJQAX_cADrF&_nc_ht=scontent.fsgn2-10.fna&oh=00_AfDExnTq4M6scLkQ7XEXOt61MBGbJBXuK_l_mfxp0djSgw&oe=657803F8" alt="">
+                <p>Mạnh</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -304px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Tìm bạn bè</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yT/r/3dN1QwOLden.png">
+                <p>Bảng feed</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -190px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Đã lưu</p>   
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -418px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Marketplace</p>          
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -342px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Chiến dịch gây quỹ</p>   
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -456px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Kỷ niệm</p>  
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -38px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Nhóm</p>     
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/vWSUA-u7jLw.png');background-position:0 -38px;background-size:38px 76px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Sự kiện</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/tx2VFwUKc-K.png">
+                <p>Trình quản lý quản cáo</p>  
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png');background-position:0 -76px;background-size:38px 570px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                <p>Chơi game</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yy/r/xH4w-lk44we.png">
+                <p>Đơn  đặc hàng và thanh toán</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y0/r/mBH5oR81DT5.png&quot;); background-position: -724px -176px; background-size: 942px 338px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                <p>Hiến máu</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/y-/r/VaQGECnx1Us.png">
+                <p>Hoạt động gần đây với quảng cáo</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/SQh7K3QxaeW.png&quot;); background-position: 0px 0px; background-size: 38px 498px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                <p>messenger</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/-ZRs50L5kHA.png">
+                <p>messenger kids</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -38px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                <p>Nhóm </p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/vWSUA-u7jLw.png&quot;); background-position: 0px -38px; background-size: 38px 76px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                <p>sự kiện</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -114px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                <p>trang</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/tx2VFwUKc-K.png">
+                <p>Tình quản  lý quản cáo</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/tKwWVioirmj.png">
+                <p>Trung tâm khoa học khí hậu</p>
+            </div>
+            <div class="cha">
+                <i data-visualcompletion="css-img" class="" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y6/r/MXx87JcFKzH.png&quot;); background-position: 0px -532px; background-size: 38px 570px; width: 36px; height: 36px; background-repeat: no-repeat; display: inline-block;"></i>
+                <p>video</p>
+            </div>
+            <div class="cha">
+                <img draggable="false" height="36" width="36" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yI/r/eVgQ0NIygAW.png">
+                <p>video chơi game</p>
+            </div>
+        </div>
+
+    <div class="banner-item-center-input">
+            <!-- Story -->
+            <div class="new">
+                <div class="story">
+                        <div class="img-story">
+                            <img src="./img/z4893197982589_5d984ab3db9cfa716d47b224e0d589d1.jpg" alt="">  
+                        </div>
+                        <div class="name-story">
+                         <span>
+                            <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--always-white)"><g fill-rule="evenodd" transform="translate(-446 -350)"><g fill-rule="nonzero"><path d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z" transform="translate(354.5 159.5)"></path><path d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z" transform="translate(354.5 159.5)"></path></g></g></svg>
+                        </span>
+                                <p>Tạo tin</p>
+                        </div>
+                </div>
+
+                <div class="story">
+                    <div class="xd-story">
+                        <img src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/hinh-nen-3d-hinh-nen-iphone-dep-3d-didongviet@2x-576x1024.jpg" alt="">
+                    </div>
+                    <div class="avatar_story">
+                          <img src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/hinh-nen-3d-hinh-nen-iphone-dep-3d-didongviet@2x-576x1024.jpg" alt="">
+                    </div>
+                    <span class="title_story">Nam Trung</span>
+                 </div>
+
+                 <div class="story">
+                    <div class="xd-story">
+                        <img src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/galaxy-hinh-nen-iphone-doc-dep-didongviet-7@2x-576x1024.jpg" alt="">
+                    </div>
+                    <div class="avatar_story">
+                          <img src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/galaxy-hinh-nen-iphone-doc-dep-didongviet-7@2x-576x1024.jpg" alt="">
+                    </div>
+                    <span class="title_story">Nam Trung</span>
+                 </div>
+                 <div class="story">
+                    <div class="xd-story">
+                        <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-dep-3d-de-thuong-4.jpg" alt="">                    </div>
+                    <div class="avatar_story">
+                          <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-dep-3d-de-thuong-4.jpg" alt="">
+                    </div>
+                    <span class="title_story" style="width: 100px;">Nam Trung</span>
+                    <span class="slide_story">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--secondary-icon);"><path d="M9.209 5.207 16 12l-6.791 6.793a1 1 0 1 0 1.415 1.414l7.5-7.5a1 1 0 0 0 0-1.414l-7.5-7.5a1 1 0 1 0-1.415 1.414z"></path></svg>
+                    </span>
+                 </div>                          
+            </div>
+
+
+            <div class="canchinh-center">
+                <div class="baiviet-center">
+                    <!-- DANG BAI -->
+                    <div class="write_status">
+                        <div class="head_status">
+                            <div class="status_avatar">
+                                <img src="./img/z4893197982589_5d984ab3db9cfa716d47b224e0d589d1.jpg" alt="">
+                            </div>
+                            <div class="status_input">
+                                <input type="text" placeholder="Mạnh ơi, bạn đang nghĩ gì?">
+                            </div>
+                        </div>
+                        <div class="content_status">
+                            <div class="icon_status">
+                                <img height="24" width="24" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yF/r/v1iF2605Cb5.png">
+                                <span class="bai">Video trực tiếp</span>
+                            </div>
+                            <div class="icon_status">
+                                <img height="24" width="24" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yC/r/a6OjkIIE-R0.png">
+                                <span class="bai">Ảnh/Video</span>
+                            </div>
+                            <div class="icon_status">
+                                <img height="24" width="24" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/yMDS19UDsWe.png">
+                                <span class="bai">Cảm xúc/hoạt động</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tạo mới phần bài viết -->
+                    <!-- baii viet so 1 -->
+                    <div class="baiviet">
+                        <div class="var">
+                            <div class="fg">
+                                <div class="left">
+                                    <!-- div chứa hình ảnh avatar -->
+                                    <div class="avatar">
+                                        <span class="avatarlon">
+                                            <img data-imgperflogname="profileCoverPhoto" alt="" class="xz74otr x1ey2m1c x9f619 xds687c x5yr21d x10l6tqk x17qophe x13vifvy xh8yej3" referrerpolicy="origin-when-cross-origin" src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t39.30808-6/234172105_4983234755038366_2475440575245340257_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=173fa1&amp;_nc_ohc=smMaKhEWJNsAX_P7_dQ&amp;_nc_ht=scontent.fsgn2-6.fna&amp;oh=00_AfB2i24cS_5AazkZP_YBgJrFp7XLz78acJF_HyBDKHqzvQ&amp;oe=657474D2">
+                                        </span>
+                                        
+                                        <span class="avatar-nho">
+                                            <img src="./img/z4893197982589_5d984ab3db9cfa716d47b224e0d589d1.jpg" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="font">
+                                        <h1>Play together Việt Nam vn</h1>
+                                        <span class="user-name">kieu nga nguyen</span>
+                                        <span class="do">.</span>
+                                        <span>28 phút</span>
+                                        <span class="do">.</span>
+                                        <span>
+                                            <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="Đã chia sẻ với Thành viên của Play Together Việt Nam  🇻🇳" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--secondary-icon);"><title>Đã chia sẻ với Thành viên của Play Together Việt Nam  🇻🇳</title><g fill-rule="evenodd" transform="translate(-448 -544)"><path d="M460.869 555c-.472 0-.41-.4-.41-.4 0-.786-.264-1.51-.708-2.1 0 0-.476-.5.033-.5 1.222 0 2.216.896 2.216 1.996 0 .554-.507 1.004-1.131 1.004zm-1.41-.094c0 .603-.514 1.094-1.146 1.094h-4.625c-.632 0-1.147-.491-1.147-1.094v-.306c0-1.434 1.22-2.6 2.722-2.6h1.474c1.501 0 2.722 1.166 2.722 2.6v.306zm-7.21-2.406a3.479 3.479 0 0 0-.708 2.1s.063.4-.41.4c-.624 0-1.13-.45-1.13-1.004 0-1.1.993-1.996 2.215-1.996.51 0 .033.5.033.5zm-.124-4c.684 0 1.125.49 1.125 1.25 0 .69-.504 1.25-1.125 1.25-.62 0-1.125-.56-1.125-1.25 0-.76.442-1.25 1.125-1.25zm3.875-1c.925 0 1.5.67 1.5 1.75 0 .965-.673 1.75-1.5 1.75s-1.5-.785-1.5-1.75c0-1.08.575-1.75 1.5-1.75zm3.875 1c.684 0 1.125.49 1.125 1.25 0 .69-.505 1.25-1.125 1.25s-1.125-.56-1.125-1.25c0-.76.442-1.25 1.125-1.25zM456 544c-4.411 0-8 3.589-8 8s3.589 8 8 8 8-3.589 8-8-3.589-8-8-8z"></path></g></svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <!-- tạo thẻ span để chứa thẻ i nha -->
+                                    <span>
+                                         <i class="fa-solid fa-ellipsis-vertical fa-rotate-90"></i> <!--.. x  -->
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </span>
+                                </div>  
+                            </div>
+                            <div class="con">
+                                <p>Hihi ai chưa có thì nhả vía nha</p>
+                            </div>
+                            <div class="hg">
+                                <img src="https://cdn.vjshop.vn/tin-tuc/nhiep-anh-tu-lieu-la-gi/nhiep-anh-tu-lieu-11.jpg" width="70%" alt="">
+                            </div>
+                            <div class="df">
+                                <div class="hd">
+                                    <span>
+                                        <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                                    </span>
+                                    <span class="ba">
+                                        <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                                    </span>
+                                    <span class="biet">24</span>
+                                </div>
+                                <div class="lest">
+                                    <span class="biet">5</span>
+                                    <span class="iconnho">
+                                        <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png&quot;); background-position: 0px -1472px; background-size: 26px 1536px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="last">
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -774px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Thích</p>
+                                </div>
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -576px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Bình luận</p>
+                                </div>
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -906px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Gửi</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="scb">
+                                <div class="lat">
+                                    <p>Xem thêm bình luận</p>
+                                </div>
+                                <div class="in">
+                                    <div class="hinhanh">
+                                        <img src="./img/z4893197982589_5d984ab3db9cfa716d47b224e0d589d1.jpg" alt="">
+                                    </div>
+                                    <div class="noidung">
+                                        <div class="ten">
+                                            <p class="mn">Hân nguyễn</p>
+                                            <p>Bạn hên ghê</p>
+                                        </div>
+                                        <div class="avatar4">
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="at">
+                                    <div class="avatar5">
+                                        <img src="./img/z4893197982589_5d984ab3db9cfa716d47b224e0d589d1.jpg" alt="">
+                                    </div>
+                                    <div class="ak">
+                                        <div class="thongtin">
+                                            <p>Viết bình luận</p>
+                                        </div>
+                                      <div class="avatar8">    <!-- cac bieu tuong trong the  -->
+                                            <span class="m4">
+                                                <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png&quot;); background-position: 0px -1130px; background-size: 26px 1536px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                                            </span>
+                                            <span class="m4">
+                                                <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png&quot;); background-position: 0px -1238px; background-size: 26px 1536px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                                            </span>
+                                            <span  class="m4">
+                                                <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png&quot;); background-position: 0px -1166px; background-size: 26px 1536px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                                            </span>
+                                            <span class="m4">
+                                                <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png&quot;); background-position: 0px -1274px; background-size: 26px 1536px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                                            </span>
+                                            <span class="m4">
+                                                <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png&quot;); background-position: 0px -1418px; background-size: 26px 1536px; width: 16px; height: 16px; background-repeat: no-repeat; display: inline-block;"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- baii viet so 2 -->
+                    <div class="baiviet2">
+                        <div class="var">
+                            <div class="fg">
+                                <div class="left">
+                                    <!-- div chứa hình ảnh avatar -->
+                                    <div class="avatar-2">
+                                        <span class="avatarlon-2">
+                                            <img src="https://images.unsplash.com/photo-1698843642295-27b4ad30c7ec?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="font">
+                                        <h1>Di du lich</h1>
+                                       
+                                       
+                                        <span>3h</span>
+                                        <span class="do">.</span>
+                                        <span>
+                                            <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="Đã chia sẻ với Công khai" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--secondary-icon);"><title>Đã chia sẻ với Công khai</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <!-- tạo thẻ span để chứa thẻ i nha -->
+                                    <span>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-rotate-90"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </span>
+                                </div>  
+                            </div>
+                            <div class="con">
+                                <p>Đi du lịch vui ghê</p>
+                            </div>
+                            <div class="hg-2">
+                                    <div class="item-img">
+                                        <img src="https://images.unsplash.com/photo-1692837939436-7fda057e82d2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEwfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="">
+                                    </div>
+                                    <div class="item-img">
+                                        <img src="https://images.unsplash.com/photo-1699391618617-e70493b6cd9e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDF8RnpvM3p1T0hONnd8fGVufDB8fHx8fA%3D%3D" alt="">
+                                    </div>      
+                                    <div class="item-img">
+                                        <img src="https://images.unsplash.com/photo-1700681788294-98577906171d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDQwfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="">
+                                    </div>      
+                                    <div class="item-img">
+                                        <img src="https://images.unsplash.com/photo-1670837301082-87c8561b12f3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY4fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="">
+                                    </div>
+
+                            </div>
+                            <div class="df">
+                                <div class="hd">
+                                    <span>
+                                        <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                                    </span>
+                                    <span class="ba">
+                                        <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                                    </span>
+                                    <span class="biet">1K</span>
+                                </div>
+                            
+                            </div>
+                            <hr>
+                            <div class="last">
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -774px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Thích</p>
+                                </div>
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -576px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Bình luận</p>
+                                </div>
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -906px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Gửi</p>
+                                </div>
+                            </div>
+                          
+
+                        </div>
+                    </div>
+                    <!-- baii viet so 3 -->
+                    <div class="baiviet3">
+                        <div class="var3">
+                            <div class="fg">
+                                <div class="left">
+                                    <!-- div chứa hình ảnh avatar -->
+                                    <div class="avatar-2">
+                                        <span class="avatarlon-2">
+                                            <img src="https://images.unsplash.com/photo-1697137031949-5795e4dc476e?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                                        </span>
+                                    </div>
+                                    <div class="font">
+                                        <h1>Thich mao hiem</h1>
+                                       
+                                       
+                                        <span>15 phút</span>
+                                        <span class="do">.</span>
+                                        <span>
+                                            <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="Đã chia sẻ với Công khai" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--secondary-icon);"><title>Đã chia sẻ với Công khai</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <!-- tạo thẻ span để chứa thẻ i nha -->
+                                    <span>
+                                        <i class="fa-solid fa-ellipsis-vertical fa-rotate-90"></i>
+                                    </span>
+                                    <span>
+                                        <i class="fa-solid fa-xmark"></i>
+                                    </span>
+                                </div>  
+                            </div>
+                            <div class="con">
+                                <p>Đi du lịch vui ghê</p>
+                            </div>
+                            <div class="hg-3">
+                                <video class="video-player" muted autoplay>
+                                    <!-- <source src="your-video-url.mp4" type="video/mp4"> -->
+                                    <source src="./img/y2mate.com - Catalonia  A short travel video  Spain_1080p.mp4" type="video/mp4">
+                                    </source>
+                                </video>
+                            </div>
+                            <div class="df">
+                                <div class="hd">
+                                    <span>
+                                        <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                                    </span>
+                                    <span class="ba">
+                                        <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                                    </span>
+                                    <span class="biet">980</span>
+                                </div>
+                            
+                            </div>
+                            <hr>
+                            <div class="last">
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -774px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Thích</p>
+                                </div>
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -576px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Bình luận</p>
+                                </div>
+                                <div class="but">
+                                    <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/ePncy4j7me6.png');background-position:0 -906px;background-size:26px 1536px;width:20px;height:20px;background-repeat:no-repeat;display:inline-block"></i>
+                                    <p class="ai">Gửi</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+            
+            
+        </div>
+        <div class="banner-item-right-input">
+          <div class="people_contact">
+            <div class="tetx">
+                <h2>Người liên hệ</h2>
+                <div class="va">
+                    <div class="giua">
+                        <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--secondary-icon)"><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg>
+                    </div>
+                    <div class="giua">
+                        <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--secondary-icon)"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                    </div>
+                </div>
+              </div>
+            <div class="lex">
+                <img src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/galaxy-hinh-nen-iphone-doc-dep-didongviet-7@2x-576x1024.jpg" alt="">
+                <p>Nam Trung</p> 
+            </div>
+            <div class="lex">
+                <img src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/galaxy-huyen-bi-hinh-nen-iphone-12-pro-max-didongviet-2-576x1024.jpg" alt="">
+                <p>Thanh</p>
+            </div>
+            <div class="lex">
+                <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-dep-3d-de-thuong-4.jpg" alt="">
+                <p>Teo</p>
+            </div> 
+          </div>
+
+
+
+
+          <div class="people_contact">
+            <div class="tetx">
+                <h4>Đoạn chat cộng đồng của bạn</h4>      
+            </div>
+            <div class="lex">
+                <img src="https://hoanghamobile.com/tin-tuc/wp-content/uploads/2023/08/hinh-nen-dep-3d-de-thuong-4.jpg" alt="">
+                <p>Cong Dong IT VietNam</p> 
+            </div>
+            <div class="lex">
+               
+                    <img src="https://scontent.fsgn2-10.fna.fbcdn.net/v/t1.30497-1/143086968_2856368904622192_1959732218791162458_n.png?stp=cp0_dst-png_p60x60&_nc_cat=1&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=yA87YnT4NJQAX_cADrF&_nc_ht=scontent.fsgn2-10.fna&oh=00_AfDExnTq4M6scLkQ7XEXOt61MBGbJBXuK_l_mfxp0djSgw&oe=657803F8" alt="">
+              
+                
+                <p>Cong Dong Web</p> 
+            </div>
+          
+        </div>
+
+
+
+
+          <div class="people_contact">
+            <div class="tetx">
+                <h4>Cuộc trò chuyện nhóm</h4>      
+            </div>
+            <div class="vui">
+             <span class="wed">
+                <i class="fa-solid fa-plus"></i>
+             </span>
+                <p>Tạo Nhóm Mới</p> 
+            </div>
+         
+          
+          </div>
+        </div>
+          
+    </div>
+   
+</body>
+</html>
